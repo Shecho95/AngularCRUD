@@ -19,13 +19,13 @@ export class CreateProductComponent implements OnInit {
 
     let newProduct = {
         id: 11,
-        categoryId: form.value.product_category,
-        productName: form.value.product_name,
+        categoryid: form.value.product_category,
+        productname: form.value.product_name,
         description: form.value.product_description,
         rating: form.value.product_rating,
         price: form.value.product_price,
-        productImg: '',
-        isAvailable: 1,
+        productimg: '',
+        isavailable: 1,
         color: form.value.product_color,
         reviews: form.value.product_category,
     };
