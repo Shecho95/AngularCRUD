@@ -4,8 +4,9 @@
 <a href="#/products/create-product" class="list-group-item" style="background-color:#ddd">
     AGREGAR NUEVO PRODUCTO
 </a>
+<a>CATEGORIAS:</a>
 <div class="list-group" *ngFor="let cat of categoryList">
     <a href="#/products/category/{{cat.id}}" class="list-group-item" >
-        {{ cat.categoryName }}
+        {{ cat.categoryname }}
     </a>
 </div>

@@ -18,7 +18,6 @@ export class CreateProductComponent implements OnInit {
     console.log(form.value);
 
     let newProduct = {
-        id: 11,
         categoryid: form.value.product_category,
         productname: form.value.product_name,
         description: form.value.product_description,
