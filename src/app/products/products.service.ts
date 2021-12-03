@@ -44,7 +44,7 @@ export class ProductsService {
   }
 
   searchCategoryProducts(categoryId): Observable<Product>{
-    const productUrl = 'https://vulnerabilidades-backend.herokuapp.com/api/categoryId=' + categoryId;
+    const productUrl = 'https://vulnerabilidades-backend.herokuapp.com/api/productos/category/' + categoryId;
     return this.httpClient.get<Product>(productUrl); // return an observable
   }
 
